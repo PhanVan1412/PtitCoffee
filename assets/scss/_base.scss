@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Quicksand', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    transition: all .3s linear;
+}
+section {
+    padding-bottom: 3rem;
+}
+h1.heading {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 2;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    span {
+        color: $primary-color;
+    }
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 2rem 0rem;
+    border: none;
+    font-weight: 700;
+    border-radius: 1rem;
+    top: 3rem;
+    cursor: pointer;
+    background: linear-gradient(45deg, rgb(228, 53, 53) , rgba(173, 12, 12, 0.808));
+    transition: all .2s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

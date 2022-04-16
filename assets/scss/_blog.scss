@@ -1,0 +1,39 @@
+.blog {
+    margin: 0 auto;
+    background: #fbfbfb;   
+    .blogs__slide{
+        width: 1240px;
+        .box {
+            width: 24%;
+            padding: 1.5rem;
+            background: #fff;
+            // flex: 1 1 25rem;
+            border: 0.1rem solid rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            // position: relative;
+            box-shadow: $box-shadow;
+            // overflow: hidden;
+            .image {
+                max-width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .content {
+                h3 {
+                    font-size: 1.8rem;
+                    color: $primary-color;
+                    margin: 1rem auto;
+                }
+                p {
+                    color: $text-color;
+                    font-size: 1.4rem;
+                }
+
+            }
+            .btn {
+                margin-bottom: 0rem;
+            }
+        }
+    }
+}

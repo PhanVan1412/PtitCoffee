@@ -1,0 +1,78 @@
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 3rem 5rem;
+    position: relative;
+    .sidebar__menu {
+        flex: 1 1 10rem;
+        padding: 2rem;
+        position: sticky;
+
+        a.menu__item {
+            display: block;
+            color: $text-color;
+            font-size: 2rem;
+            padding: 1rem 0;
+            border-bottom: .1rem solid rgba(0,0,0,.1);
+        }
+        .image {
+            margin-top: 3rem;
+        }
+    }
+
+    .box__content {
+        flex: 1 1 80rem;
+        
+        &--banner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        &--product {
+            .title {
+                margin-top: 3rem;
+                font-size: 2.5rem;
+                color: $primary-color;
+            }
+            .box__item {
+                margin-top: 2rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+                padding-bottom: 2rem;
+                border-bottom: .1rem solid rgba(0,0,0,.1);
+                .box {
+                    width: 30rem;
+                    img {
+                        width: 100%;
+                        border-radius: 5px;
+                        box-shadow: $box-shadow;
+                    }
+                    .content {
+                        h2 {
+                            font-size: 2rem;
+                            padding: 1rem;
+                        }
+                        span {
+                            font-size: 1.8rem;
+                            color: $primary-color;
+                            padding-left: 1rem;
+                        }
+                        a {
+                            font-size: 1.8rem;
+                            color: $primary-color;
+                            &:hover {
+                                color: rgb(163, 7, 7);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

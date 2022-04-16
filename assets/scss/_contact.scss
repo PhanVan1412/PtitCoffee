@@ -1,0 +1,61 @@
+.contact {
+    .container {
+        max-width: 1240px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+        margin: 0 auto;
+        background: #fbfbfb;
+        box-shadow: $box-shadow;
+        padding: 2rem;
+        border-radius: 5px;
+
+        .row {
+            flex: 1 1 50px;
+            
+            .inputBox {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.5rem;
+
+                input {
+                    width: 40%;
+                    margin-bottom: 1rem;
+                    padding: 1rem 2rem;
+                    border: none;
+                    box-shadow: $box-shadow;
+                    border-radius: 5px;
+                    font-size: 1.7rem;
+                }
+            }
+            
+            textarea  {
+                padding: 1rem;
+                margin: 1rem 0;
+                font-size: 1.7rem;
+                color: #333;
+                text-transform: none;
+                border: 0.1rem solid rgba(0, 0, 0, 0.3);
+                border-radius: 0.5rem;
+                width: 93%;
+                height: 12rem;
+                resize: none;
+                border: none;
+                    box-shadow: $box-shadow;
+            }
+
+            button .btn{
+                margin-bottom: 0;
+            }
+        }
+        
+        .image {
+            flex: 1 1 30px;
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+}

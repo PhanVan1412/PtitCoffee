@@ -1,0 +1,49 @@
+.footer {
+    border-top: .3rem solid $primary-color;
+    background: #fafafa;
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3rem 5%;
+        transition:all .3s linear;
+        .box {
+            flex: 1 1 20rem;
+            h3 {
+                font-size: 2rem;
+                color: $text-color;
+                margin-bottom: 2rem;
+            }
+            a {
+                display: block;
+                font-size: 1.6rem;
+                margin-bottom: 1.5rem;
+                color: $text-color;
+                transition:all .3s linear;
+                &:hover {
+                    i {
+                        padding-right: 2rem;
+                    }
+                }
+                i {
+                    transition:all .3s linear;
+                    color: $primary-color;
+                    padding-right: 1rem;
+                }
+            }
+        }
+    }
+    .credit {
+
+        // border-top: .1rem solid $dark-color;
+        padding-top: 1rem;
+        font-size: 2rem;
+        text-align: center;
+        background: $primary-color;
+        padding-bottom: 1rem;
+        color: #fff;
+        span {
+            color: #ffff;
+            font-weight: 700;
+        }
+    }
+}
